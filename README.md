@@ -1,2 +1,4 @@
 # tv-home
-Homepage for my tv's raspberry pi
+Homepage for tv's raspberry pi
+
+[My wife's tv hub](https://vicesalles.github.io/tv-home/)
