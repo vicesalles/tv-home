@@ -1,0 +1,40 @@
+body {
+  background: white;
+  background: radial-gradient(circle, white 35%, #d6d6d6 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .graella {
+  min-width: 95vw;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+body .graella .canal {
+  box-shadow: darkgray 10px 9px 26px -8px;
+  width: 296px;
+  height: 296px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3em;
+}
+body .graella .canal a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+body .graella .canal a img {
+  object-fit: cover;
+}
+body .graella .canal:hover {
+  box-shadow: darkgray 10px 9px 26px -12px;
+}
+
+/*# sourceMappingURL=estil.css.map */

@@ -1,0 +1,43 @@
+body{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 35%, rgba(214,214,214,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .graella{
+
+        min-width: 95vw;
+        min-height: 95vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .canal{
+            box-shadow: darkgray 10px 9px 26px -8px;
+            width: 296px;
+            height: 296px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 3em;        
+            a{
+                text-decoration: none;
+                color: white;
+                font-family: sans-serif;
+                img{
+                    object-fit: cover; 
+                }
+            }
+
+            &:hover {
+                box-shadow: darkgray 10px 9px 26px -12px;
+            }
+          
+        }
+
+    }
+}
